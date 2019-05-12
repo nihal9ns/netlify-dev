@@ -10,7 +10,7 @@ Playing around with netlify dev and deploy.
 
 # Install netlify-cli globally
 
-npm i -f netlify-cli
+npm i -g netlify-cli
 
 # Login to your netlify account using netlify-cli
 
@@ -30,6 +30,10 @@ netlify deploy --prod
 
 # Serve on localhost
 
-npm run dev
+netlify dev
+
+# Serve on a live url
+
+netlify dev --live
 
 ```
